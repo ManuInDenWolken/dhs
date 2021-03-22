@@ -10,6 +10,7 @@ allprojects {
     targetCompatibility = 1.8
 
     apply plugin: 'java'
+    apply plugin: 'maven-publish'
 
     repositories {
         mavenLocal()
@@ -25,5 +26,18 @@ allprojects {
 
     test {
         useJUnitPlatform()
+    }
+
+    publishing {
+        repositories {
+            maven {
+                name = 'ossrh'
+                url = 'https://oss.sonatype.org/service/local/staging/deploy/maven2'
+                credentials {
+                    username = System.getenv("MAVEN_USERNAME")
+                    password = System.getenv("MAVEN_PASSWORD")
+                }
+            }
+        }
     }
 }
