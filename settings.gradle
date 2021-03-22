@@ -1,0 +1,6 @@
+rootProject.name = 'dhs'
+
+include 'api'
+findProject('api')?.name = 'dhs-api'
+include 'core'
+findProject('core')?.name = 'dhs-core'

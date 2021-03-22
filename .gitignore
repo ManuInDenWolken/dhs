@@ -1,0 +1,14 @@
+#####################
+### Project Files ###
+#####################
+.idea/
+*.iml
+out/
+
+##################
+### Buildtools ###
+##################
+.gradle/
+target/
+build/
+dependency-reduced-pom.xml
