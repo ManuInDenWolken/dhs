@@ -5,7 +5,7 @@
 ![Development Indicator](https://img.shields.io/badge/development-active-brightgreen)
 
 ### What is dhs?
-With dhs (Dependency Hook Services) you can set dependencies as optional or
+With dhs (Dependency Hook Services), not to be confused with adhs, you can set dependencies as optional or
 necessary for your project. You can define abstract dependent services with
 ability to decide which service is used at runtime.
 
