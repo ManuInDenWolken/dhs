@@ -17,5 +17,7 @@ customer. To avoid this infinity loop of adjusting, this very lightweight framew
 built. With dhs you can define your software independently of your customers
 specifications - whilst you're avoiding boilerplate code!
 
+<br>
+
 > This is a short time project. It means that after first tests and function
 > extensions, active maintenance of this project is stopped.
