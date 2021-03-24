@@ -1,4 +1,4 @@
-rootProject.name = 'dhs'
+rootProject.name = 'dhs-parent'
 
 include 'api'
 findProject('api')?.name = 'dhs-api'
