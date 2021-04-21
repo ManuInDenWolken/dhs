@@ -22,7 +22,7 @@ public final class DefaultServiceLocator implements DependentServiceLocator {
 
     @Override
     public void shutdown(ConcurrencyHandler handler) {
-        handler.handle(() -> services.values().forEach(DependentService::start));
+        handler.handle(() -> services.values().forEach(DependentService::shutdown));
     }
 
     @Override
